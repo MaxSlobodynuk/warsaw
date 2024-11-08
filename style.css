@@ -6,7 +6,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+    background-image: url('./bg.png'); /* Замість вашої URL вставте шлях до зображення */
+  background-size: cover; /* Зображення покриває весь екран */
+  background-position: center; /* Центрування зображення */
+  background-repeat: no-repeat; /* Запобігає повторенню фону */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, sans-serif;
   color: white;
@@ -42,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -64,7 +67,6 @@ body {
 .profile-name {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -134,9 +136,9 @@ body {
   background-color: #1c93e3;
   color: white;
   padding: 0.5rem 1rem;
-  border-radius: 8px;
+  border-radius: 18px;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
 }
 
 .download-button:hover {
